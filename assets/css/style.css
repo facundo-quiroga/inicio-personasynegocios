@@ -38,6 +38,7 @@ header{
 
 .menu__principal li{
     padding: 20px;
+    transition: 3s;
 }
 
 .menu__principal li :hover{
@@ -64,6 +65,19 @@ a:link, a:visited, a:active {
     color: white;
     text-shadow: 5px 4px 8px black;
     text-align: center;
+    transition: 4s;
+  
+}
+
+.carrusel__imagenes:hover{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 50px;
+    color: white;
+    text-shadow: 8px 6px 8px black;
+    text-align: center;
+    background-image: linear-gradient(rgba(255, 69, 13, 0.253), rgba(255, 255, 0, 0.123)),
+    url("../img/negocios.jpg") ;
   
 }
 
@@ -87,6 +101,15 @@ a:link, a:visited, a:active {
     font-size: 20px;
     padding: 5px;
     font-weight: 400;
+    transition: 0.5s;
+}
+
+.tabla__principal th:hover{
+    color: rgb(250, 92, 0);
+    font-size: 22px;
+    padding: 5px;
+    font-weight: 600;
+    background-color: #fffef9;
 }
 
 .tabla__principal td{
@@ -153,8 +176,13 @@ footer{
     padding: 15px;
     align-content: center;
     justify-content: center;
+    transition: 1s;
 }
-
+div .redes__img:hover{
+    transform: rotateZ(350deg);
+    background-color: #d16222;
+    width: 30%;
+}
 .inicio__academy{
     background-color: white;
     border-radius: 25px;
@@ -195,6 +223,11 @@ p{
     max-width: 30%;
     padding: 4px;
     justify-content: space-around;
+    transition: 1s;
+}
+
+.academy__articulo:hover{
+    background-color: #f0b369;
 }
 
 .body__pages {
